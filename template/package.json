@@ -10,7 +10,7 @@
     "build": "node build/build.js",
     "unit": "testee test/unit/index.html --browsers firefox",
     "e2e": "testee test/e2e/index.html --browsers firefox",
-    "test": "testee test/index.html --browsers firefox",
+    "test": "testee test/index.html --browsers firefox"{{#lint}},
     "lint": "eslint --ext .js,.vue src{{#unit}} test/unit/specs{{/unit}}{{#e2e}} test/e2e/specs{{/e2e}}"{{/lint}}
   },
   "dependencies": {
