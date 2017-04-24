@@ -98,6 +98,24 @@
     "webpack-hot-middleware": "^2.18.0",
     "webpack-merge": "^4.1.0"
   },
+  "steal": {
+    "homeAlias": "@",
+    "map": {
+      "assert": "chai/chai"
+    },
+    "meta": {
+      "chai/chai": {
+        "format": "global",
+        "exports": "chai.assert"
+      }
+    },
+    "plugins": [
+      "steal-css",
+      "steal-less",
+      "steal-vue",
+      "chai"
+    ]
+  },
   "engines": {
     "node": ">= 4.0.0",
     "npm": ">= 3.0.0"
