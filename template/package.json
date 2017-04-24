@@ -11,7 +11,7 @@
     "unit": "testee test/unit/index.html --browsers firefox",
     "e2e": "testee test/e2e/index.html --browsers firefox",
     "test": "testee test/index.html --browsers firefox"{{#lint}},
-    "lint": "eslint --ext .js,.vue src{{#unit}} test/unit/specs{{/unit}}{{#e2e}} test/e2e/specs{{/e2e}}"{{/lint}}
+    "lint": "eslint --ext .js,.vue src test/unit test/e2e"{{/lint}}
   },
   "dependencies": {
     "feathers": "^2.1.1",
