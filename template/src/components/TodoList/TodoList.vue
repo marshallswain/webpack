@@ -1,7 +1,12 @@
 <template>
   <ul class="todo-list">
-    <li v-for="todos">
-      {{description}}
+    <form @submit.prevent="addTodo(description)">
+      <input type="text" placeholder="Description" v-model="description">
+      <button type="submit">Add Todo</button>
+    </form>
+    
+    <li v-for="todo in todos">
+      {{todo.description}}
     </li>
   </ul>
 </template>
@@ -11,9 +16,11 @@ export default {
   name: 'todo-list',
   data () {
     return {
+      description: '',
       todos: [],
       addTodo (description) {
         this.todos.push({description, completed: false})
+        this.description = ''
       }
     }
   }
