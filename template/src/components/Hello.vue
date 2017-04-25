@@ -17,6 +17,19 @@
       <li><a href="http://vue-loader.vuejs.org/" target="_blank">vue-loader</a></li>
       <li><a href="https://github.com/vuejs/awesome-vue" target="_blank">awesome-vue</a></li>
     </ul>
+    <h2>Feathers</h2>
+    <ul>
+      <li><a href="https://feathersjs.com" target="_blank">Feathers Home</a></li>
+      <li><a href="https://docs.feathersjs.com" target="_blank">Feathers Docs</a></li>
+      <li><a href="https://github.com/feathersjs/feathers-vuex" target="_blank">feathers-vuex</a></li>
+      <li><a href="https://github.com/feathersjs/feathers-chat-vuex" target="_blank">feathers-vuex-chat</a></li>
+    </ul>
+    <h2>Modlets</h2>
+    <ul>
+      <li><a href="https://www.bitovi.com/blog/modlet-workflows" target="_blank">Learn about Modlets</a></li>
+      <li><a href="https://stealjs.com" target="_blank">StealJS</a></li>
+      <li><a href="http://127.0.0.1:8080/src/components/TodoList/TodoList.html" target="_blank">See the TodoList Modlet Demo Page</a></li>
+    </ul>
   </div>
 </template>
 
