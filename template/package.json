@@ -93,6 +93,9 @@
   },
   "steal": {
     "homeAlias": "@",
+    "directories": {
+      "lib": "src"
+    },
     "map": {
       "assert": "chai/chai",
       "vue": "vue/dist/vue"
